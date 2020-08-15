@@ -6,7 +6,13 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitle: `The Minimalist Family`,
+    siteTitleAlt: `The Minimalist Family - To a simpler, happier and more peaceful life`,
+    siteHeadline: `The Minimalist Family - To a simpler, happier and more peaceful life`,
+    siteUrl: `https://giadinhtoigian.com`,
+    siteDescription: `A journey to cut of clutters, building a habbits of living a simple life and focus on experiences instead of materials`,
+    siteLanguage: `en`,
+    author: `@antranapp`,
   },
   plugins: [
     {
@@ -24,14 +30,6 @@ module.exports = {
           },
         ],
         externalLinks: [
-          {
-            name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
-          },
-          {
-            name: `Instagram`,
-            url: `https://www.instagram.com/lekoarts.de/`,
-          },
         ],
       },
     },
@@ -45,8 +43,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `minimal-blog - @lekoarts/gatsby-theme-minimal-blog`,
-        short_name: `minimal-blog`,
+        name: `The Minimalist Family`,
+        short_name: `the-minimalist-family`,
         description: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and code highlighting.`,
         start_url: `/`,
         background_color: `#fff`,
